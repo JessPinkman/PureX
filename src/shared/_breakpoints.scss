@@ -1,0 +1,15 @@
+@mixin screen($point) {
+  @if $point == small {
+    @media screen and (max-width: 768px) {
+      @content;
+    }
+  } @else if $point == medium {
+    @media screen and (min-width: 769px) and (max-width: 1024px) {
+      @content;
+    }
+  } @else if $point == large {
+    @media screen and (min-width: 1025px) {
+      @content;
+    }
+  }
+}

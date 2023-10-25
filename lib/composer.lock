@@ -1,0 +1,59 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "d6861ccdc31c80e6b6f9e16cde94150f",
+    "packages": [
+        {
+            "name": "jesspinkman/pure",
+            "version": "3.0.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/JessPinkman/Pure.git",
+                "reference": "9142bf353d60affbae805d03b6c0f3a0c6100fa7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/JessPinkman/Pure/zipball/9142bf353d60affbae805d03b6c0f3a0c6100fa7",
+                "reference": "9142bf353d60affbae805d03b6c0f3a0c6100fa7",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^8.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Pure\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Serge Goncalves",
+                    "email": "serge.goncalves@gmail.com"
+                }
+            ],
+            "description": "Create HTML Markups without HTML code, easily nest elements and set attributes",
+            "support": {
+                "issues": "https://github.com/JessPinkman/Pure/issues",
+                "source": "https://github.com/JessPinkman/Pure/tree/3.0.4"
+            },
+            "time": "2021-05-27T02:07:23+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.6.0"
+}

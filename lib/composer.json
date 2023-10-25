@@ -1,0 +1,19 @@
+{
+  "name": "jesspinkman/pure-x",
+  "description": "UI Component library based on Pure",
+  "type": "library",
+  "require": {
+    "jesspinkman/pure": "^3.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "PureX\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Serge Goncalves",
+      "email": "serge.goncalves@gmail.com"
+    }
+  ]
+}
